@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    font-size: 100%;
+}
+.hero-image {
+    background-image: url('../images/image-asset.webp');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text {
+    text-align: center;
+    border: 2px solid blue;
+    color: black;
+    background-color: white;
+}
+.hero-text h2 {
+    font-size: 250%;
+    font-weight: 500;
+}
+.hero-text p {
+    font-size: 150%;
+    font-weight: 500;
+    line-height: 10px;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+.hero-btn {
+    display: inline-block;
+    padding: 10px 30px;
+    color: blue;
+    background-color: aqua;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.hero-btn:hover {
+    background-color: blue;
+    color: pink;
+}
